@@ -7,7 +7,7 @@
     <title>Minimal Portfolio</title>
   <?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class(); ?>>
     <header>
        <h1 class="logo"><a href="">Minimal Portfolio Theme</a></h1>
        <nav>
